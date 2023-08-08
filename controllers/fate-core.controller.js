@@ -5,7 +5,8 @@ module.exports.createPdf = async (req, res) => {
   try {
     const pages = req.body;
     const pageArr = Object.values(pages);
-    const doc = new PDFDocument({ bufferPages: true, size: "A4", font: "Helvetica" });
+    const pageSize = [595, 420];
+    const doc = new PDFDocument({ bufferPages: true, size: pageSize, font: "Helvetica" });
     const showDebugOutline = false;
 
     let buffers = [];
@@ -21,14 +22,14 @@ module.exports.createPdf = async (req, res) => {
     for (let index = 0; index < pageArr.length; index++) {
       try {
         if (index > 0) {
-          doc.addPage({ size: "A4" });
+          doc.addPage({ size: pageSize });
           doc.switchToPage(index);
         }
 
         const pageData = pageArr[index];
-        const layout = require(`../layouts/dnd5e/character-${pageData.type}.json`).layout;
+        const layout = require(`../layouts/fate-core/character-${pageData.type}.json`).layout;
 
-        const backgroundImageUrl = `./assets/dnd5e/character-${pageData.type}.jpg`;
+        const backgroundImageUrl = `./assets/fate-core/character-${pageData.type}.jpg`;
         doc.image(backgroundImageUrl, 0, 0, { width: doc.page.width, height: doc.page.height });
 
         for (const field of Object.keys(layout)) {
@@ -88,6 +89,12 @@ module.exports.createPdf = async (req, res) => {
                   lineBreak: true,
                   ellipsis: true,
                 });
+
+                if (showDebugOutline) {
+                  doc
+                    .rect(layoutData.position.x, layoutData.position.y, layoutData.width, layoutData.height)
+                    .stroke("red");
+                }
                 break;
               case "image":
                 doc.image(element, layoutData.position.x, layoutData.position.y, {

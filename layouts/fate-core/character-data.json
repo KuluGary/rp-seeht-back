@@ -1,0 +1,242 @@
+{
+  "layout": {
+    "name": {
+      "type": "input",
+      "position": { "y": 42, "x": 14 },
+      "fontSize": 11,
+      "size": 340
+    },
+    "description": {
+      "type": "textarea",
+      "position": { "y": 62, "x": 14 },
+      "fontSize": 8,
+      "width": 340,
+      "height": 28
+    },
+    "refresh": {
+      "type": "input",
+      "position": { "y": 68, "x": 364 },
+      "fontSize": 11,
+      "size": 43,
+      "align": "center"
+    },
+    "high-concept": {
+      "type": "input",
+      "position": { "y": 124, "x": 14 },
+      "fontSize": 8,
+      "size": 210
+    },
+    "trouble": {
+      "type": "input",
+      "position": { "y": 142, "x": 14 },
+      "fontSize": 8,
+      "size": 210
+    },
+    "other-aspect-1": {
+      "type": "input",
+      "position": { "y": 160, "x": 14 },
+      "fontSize": 8,
+      "size": 210
+    },
+    "other-aspect-2": {
+      "type": "input",
+      "position": { "y": 178, "x": 14 },
+      "fontSize": 8,
+      "size": 210
+    },
+    "other-aspect-3": {
+      "type": "input",
+      "position": { "y": 196, "x": 14 },
+      "fontSize": 8,
+      "size": 210
+    },
+    "skills.superb.0": {
+      "type": "input",
+      "position": { "y": 124, "x": 306 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.superb.1": {
+      "type": "input",
+      "position": { "y": 124, "x": 360 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.superb.2": {
+      "type": "input",
+      "position": { "y": 124, "x": 418 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.superb.3": {
+      "type": "input",
+      "position": { "y": 124, "x": 477 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.superb.4": {
+      "type": "input",
+      "position": { "y": 124, "x": 536 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.great.0": {
+      "type": "input",
+      "position": { "y": 142, "x": 306 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.great.1": {
+      "type": "input",
+      "position": { "y": 142, "x": 360 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.great.2": {
+      "type": "input",
+      "position": { "y": 142, "x": 418 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.great.3": {
+      "type": "input",
+      "position": { "y": 142, "x": 477 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.great.4": {
+      "type": "input",
+      "position": { "y": 142, "x": 536 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.good.0": {
+      "type": "input",
+      "position": { "y": 160, "x": 306 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.good.1": {
+      "type": "input",
+      "position": { "y": 160, "x": 360 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.good.2": {
+      "type": "input",
+      "position": { "y": 160, "x": 418 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.good.3": {
+      "type": "input",
+      "position": { "y": 160, "x": 477 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.good.4": {
+      "type": "input",
+      "position": { "y": 160, "x": 536 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.fair.0": {
+      "type": "input",
+      "position": { "y": 178, "x": 306 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.fair.1": {
+      "type": "input",
+      "position": { "y": 178, "x": 360 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.fair.2": {
+      "type": "input",
+      "position": { "y": 178, "x": 418 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.fair.3": {
+      "type": "input",
+      "position": { "y": 178, "x": 477 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.fair.4": {
+      "type": "input",
+      "position": { "y": 178, "x": 536 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.average.0": {
+      "type": "input",
+      "position": { "y": 196, "x": 306 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.average.1": {
+      "type": "input",
+      "position": { "y": 196, "x": 360 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.average.2": {
+      "type": "input",
+      "position": { "y": 196, "x": 418 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.average.3": {
+      "type": "input",
+      "position": { "y": 196, "x": 477 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "skills.average.4": {
+      "type": "input",
+      "position": { "y": 196, "x": 536 },
+      "fontSize": 8,
+      "size": 48
+    },
+    "extras": {
+      "type": "textarea",
+      "position": { "y": 238, "x": 14 },
+      "fontSize": 8,
+      "width": 272,
+      "height": 64
+    },
+    "stunts": {
+      "type": "textarea",
+      "position": { "y": 238, "x": 299 },
+      "fontSize": 8,
+      "width": 272,
+      "height": 64
+    },
+    "consequence-mild": {
+      "type": "input",
+      "position": { "y": 340, "x": 182 },
+      "fontSize": 8,
+      "size": 188
+    },
+    "consequence-mild-2": {
+      "type": "input",
+      "position": { "y": 340, "x": 392 },
+      "fontSize": 8,
+      "size": 188
+    },
+    "consequence-moderate": {
+      "type": "input",
+      "position": { "y": 358, "x": 182 },
+      "fontSize": 8,
+      "size": 188
+    },
+    "consequence-severe": {
+      "type": "input",
+      "position": { "y": 376, "x": 182 },
+      "fontSize": 8,
+      "size": 188
+    }
+  }
+}

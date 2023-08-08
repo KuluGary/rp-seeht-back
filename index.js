@@ -16,6 +16,6 @@ app.use(bodyParser.json({ limit: "50mb" }));
 app.use(express.json({ limit: "50mb" }));
 
 app.use("/api/v1/dnd5e", require("./routes/dnd5e.routes"));
-// app.use("/api/v1/fate-core", require("./routes/fate-core.routes"));
+app.use("/api/v1/fate-core", require("./routes/fate-core.routes"));
 
 app.listen(port);

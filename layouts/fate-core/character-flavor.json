@@ -1,0 +1,11 @@
+{
+  "layout": {
+    "notes": {
+      "type": "textarea",
+      "position": { "y": 48, "x": 14 },
+      "fontSize": 8,
+      "width": 554,
+      "height": 360
+    }
+  }
+}
