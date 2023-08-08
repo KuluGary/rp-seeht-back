@@ -1,0 +1,11 @@
+{
+  "layout": {
+    "feature": {
+      "type": "textarea",
+      "position": { "y": 25, "x": 37 },
+      "fontSize": 10,
+      "width": 520,
+      "height": 785
+    }
+  }
+}

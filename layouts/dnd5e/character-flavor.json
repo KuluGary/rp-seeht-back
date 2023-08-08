@@ -1,0 +1,80 @@
+{
+  "layout": {
+    "name": {
+      "type": "input",
+      "position": { "y": 52, "x": 40 },
+      "fontSize": 14,
+      "size": 180
+    },
+    "age": {
+      "type": "input",
+      "position": { "y": 40, "x": 260 },
+      "fontSize": 10,
+      "size": 110
+    },
+    "height": {
+      "type": "input",
+      "position": { "y": 40, "x": 375 },
+      "fontSize": 10,
+      "size": 95
+    },
+    "weight": {
+      "type": "input",
+      "position": { "y": 40, "x": 475 },
+      "fontSize": 10,
+      "size": 80
+    },
+    "eyes": {
+      "type": "input",
+      "position": { "y": 70, "x": 260 },
+      "fontSize": 10,
+      "size": 110
+    },
+    "skin": {
+      "type": "input",
+      "position": { "y": 70, "x": 375 },
+      "fontSize": 10,
+      "size": 95
+    },
+    "hair": {
+      "type": "input",
+      "position": { "y": 70, "x": 475 },
+      "fontSize": 10,
+      "size": 80
+    },
+    "avatar": {
+      "type": "image",
+      "position": { "y": 120, "x": 25 },
+      "width": 165,
+      "height": 240
+    },
+    "personality": {
+      "type": "textarea",
+      "position": { "y": 120, "x": 218 },
+      "fontSize": 8,
+      "width": 345,
+      "height": 227
+    },
+    "appearance": {
+      "type": "textarea",
+      "position": { "y": 372, "x": 218 },
+      "fontSize": 8,
+      "width": 345,
+      "height": 175
+    },
+    "backstory": {
+      "type": "textarea",
+      "position": { "y": 562, "x": 218 },
+      "fontSize": 8,
+      "width": 345,
+      "height": 245
+    },
+    "organizations": {
+      "type": "textarea",
+      "position": { "y": 400, "x": 25 },
+      "fontSize": 8,
+      "width": 170,
+      "height": 405
+    }
+  }
+}

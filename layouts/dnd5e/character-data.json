@@ -1,0 +1,631 @@
+{
+  "layout": {
+    "name": {
+      "type": "input",
+      "position": { "y": 55, "x": 40 },
+      "fontSize": 14,
+      "size": 180
+    },
+    "class": {
+      "type": "input",
+      "position": { "y": 40, "x": 260 },
+      "fontSize": 10,
+      "size": 110
+    },
+    "background": {
+      "type": "input",
+      "position": { "y": 40, "x": 375 },
+      "fontSize": 10,
+      "size": 95
+    },
+    "player": {
+      "type": "input",
+      "position": { "y": 40, "x": 475 },
+      "fontSize": 10,
+      "size": 80
+    },
+    "race": {
+      "type": "input",
+      "position": { "y": 70, "x": 260 },
+      "fontSize": 10,
+      "size": 110
+    },
+    "alignment": {
+      "type": "input",
+      "position": { "y": 70, "x": 375 },
+      "fontSize": 10,
+      "size": 95
+    },
+    "experience": {
+      "type": "input",
+      "position": { "y": 70, "x": 475 },
+      "fontSize": 10,
+      "size": 80
+    },
+    "inspiration": {
+      "type": "checkbox",
+      "position": { "y": 137, "x": 99 },
+      "fontSize": 10,
+      "size": 6
+    },
+    "proficiency": {
+      "type": "input",
+      "position": { "y": 170, "x": 93 },
+      "fontSize": 14,
+      "size": 16,
+      "align": "center"
+    },
+    "ac": {
+      "type": "input",
+      "position": { "y": 158, "x": 231 },
+      "fontSize": 14,
+      "size": 18,
+      "align": "center"
+    },
+    "initiative": {
+      "type": "input",
+      "position": { "y": 158, "x": 288 },
+      "fontSize": 14,
+      "size": 18,
+      "align": "center"
+    },
+    "speed": {
+      "type": "input",
+      "position": { "y": 158, "x": 345 },
+      "fontSize": 14,
+      "size": 18,
+      "align": "center"
+    },
+    "hitpoints.max": {
+      "type": "input",
+      "position": { "y": 200, "x": 300 },
+      "fontSize": 10,
+      "size": 75
+    },
+    "hitpoints.current": {
+      "type": "input",
+      "position": { "y": 225, "x": 286 },
+      "fontSize": 16,
+      "size": 24,
+      "align": "center"
+    },
+    "hitpoints.temp": {
+      "type": "input",
+      "position": { "y": 285, "x": 286 },
+      "fontSize": 16,
+      "size": 24,
+      "align": "center"
+    },
+    "hitdie.max": {
+      "type": "input",
+      "position": { "y": 337, "x": 240 },
+      "fontSize": 6,
+      "size": 50
+    },
+    "hitdie.current": {
+      "type": "input",
+      "position": { "y": 353, "x": 252 },
+      "fontSize": 12,
+      "size": 128
+    },
+    "attacks.0.name": {
+      "type": "input",
+      "position": { "y": 418, "x": 216 },
+      "fontSize": 9,
+      "size": 62,
+      "align": "center"
+    },
+    "attacks.0.bonus": {
+      "type": "input",
+      "position": { "y": 419, "x": 284 },
+      "fontSize": 8,
+      "size": 30,
+      "align": "center"
+    },
+    "attacks.0.damage": {
+      "type": "input",
+      "position": { "y": 419, "x": 322 },
+      "fontSize": 8,
+      "size": 60
+    },
+    "attacks.1.name": {
+      "type": "input",
+      "position": { "y": 440, "x": 216 },
+      "fontSize": 9,
+      "size": 62,
+      "align": "center"
+    },
+    "attacks.1.bonus": {
+      "type": "input",
+      "position": { "y": 440, "x": 286 },
+      "fontSize": 8,
+      "size": 30,
+      "align": "center"
+    },
+    "attacks.1.damage": {
+      "type": "input",
+      "position": { "y": 440, "x": 322 },
+      "fontSize": 8,
+      "size": 60
+    },
+    "attacks.2.name": {
+      "type": "input",
+      "position": { "y": 464, "x": 220 },
+      "fontSize": 9,
+      "size": 62,
+      "align": "center"
+    },
+    "attacks.2.bonus": {
+      "type": "input",
+      "position": { "y": 465, "x": 290 },
+      "fontSize": 8,
+      "size": 30,
+      "align": "center"
+    },
+    "attacks.2.damage": {
+      "type": "input",
+      "position": { "y": 465, "x": 322 },
+      "fontSize": 8,
+      "size": 60
+    },
+    "attacks.notes": {
+      "type": "textarea",
+      "position": { "y": 490, "x": 215 },
+      "fontSize": 8,
+      "width": 170,
+      "height": 120
+    },
+    "otherproficiencies": {
+      "type": "textarea",
+      "position": { "y": 680, "x": 27 },
+      "fontSize": 8,
+      "width": 170,
+      "height": 130
+    },
+    "treasure": {
+      "type": "textarea",
+      "position": { "y": 640, "x": 265 },
+      "fontSize": 8,
+      "width": 120,
+      "height": 170
+    },
+    "equipment": {
+      "type": "textarea",
+      "position": { "y": 415, "x": 405 },
+      "fontSize": 8,
+      "width": 170,
+      "height": 400
+    },
+    "passiveperception": {
+      "type": "input",
+      "position": { "y": 635, "x": 26 },
+      "fontSize": 12,
+      "size": 16,
+      "align": "center"
+    },
+    "traits.personality": {
+      "type": "textarea",
+      "position": { "y": 140, "x": 415 },
+      "fontSize": 9,
+      "width": 150,
+      "height": 60
+    },
+    "traits.ideals": {
+      "type": "textarea",
+      "position": { "y": 220, "x": 415 },
+      "fontSize": 9,
+      "width": 150,
+      "height": 40
+    },
+    "traits.traits": {
+      "type": "textarea",
+      "position": { "y": 280, "x": 415 },
+      "fontSize": 9,
+      "width": 150,
+      "height": 40
+    },
+    "traits.faults": {
+      "type": "textarea",
+      "position": { "y": 340, "x": 415 },
+      "fontSize": 9,
+      "width": 150,
+      "height": 40
+    },
+    "deathsaves.failed.0": {
+      "type": "checkbox",
+      "position": { "y": 342, "x": 344 },
+      "size": 2
+    },
+    "deathsaves.failed.1": {
+      "type": "checkbox",
+      "position": { "y": 342, "x": 356 },
+      "size": 2
+    },
+    "deathsaves.failed.2": {
+      "type": "checkbox",
+      "position": { "y": 342, "x": 370 },
+      "size": 2
+    },
+    "deathsaves.succeeded.0": {
+      "type": "checkbox",
+      "position": { "y": 358, "x": 344 },
+      "size": 2
+    },
+    "deathsaves.succeeded.1": {
+      "type": "checkbox",
+      "position": { "y": 358, "x": 356 },
+      "size": 2
+    },
+    "deathsaves.succeeded.2": {
+      "type": "checkbox",
+      "position": { "y": 358, "x": 370 },
+      "size": 2
+    },
+    "abilityScores.strength": {
+      "type": "input",
+      "position": { "y": 192, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "abilityScores.dexterity": {
+      "type": "input",
+      "position": { "y": 270, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "abilityScores.constitution": {
+      "type": "input",
+      "position": { "y": 348, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "abilityScores.intelligence": {
+      "type": "input",
+      "position": { "y": 427, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "abilityScores.wisdom": {
+      "type": "input",
+      "position": { "y": 505, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "abilityScores.charisma": {
+      "type": "input",
+      "position": { "y": 583, "x": 40.5 },
+      "fontSize": 10,
+      "size": 16,
+      "align": "center"
+    },
+    "savingThrows.strength.checked": {
+      "type": "checkbox",
+      "position": { "y": 215, "x": 96 },
+      "fontSize": 10,
+      "size": 2
+    },
+    "savingThrows.strength.value": {
+      "type": "input",
+      "position": { "y": 212, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "savingThrows.dexterity.checked": {
+      "type": "checkbox",
+      "position": { "y": 230, "x": 96 },
+      "size": 2
+    },
+    "savingThrows.dexterity.value": {
+      "type": "input",
+      "position": { "y": 227, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "savingThrows.constitution.checked": {
+      "type": "checkbox",
+      "position": { "y": 245, "x": 96 },
+      "size": 2
+    },
+    "savingThrows.constitution.value": {
+      "type": "input",
+      "position": { "y": 242, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "savingThrows.intelligence.checked": {
+      "type": "checkbox",
+      "position": { "y": 260, "x": 96 },
+      "size": 2
+    },
+    "savingThrows.intelligence.value": {
+      "type": "input",
+      "position": { "y": 257, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "savingThrows.wisdom.checked": {
+      "type": "checkbox",
+      "position": { "y": 274, "x": 96 },
+      "size": 2
+    },
+    "savingThrows.wisdom.value": {
+      "type": "input",
+      "position": { "y": 271, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "savingThrows.charisma.checked": {
+      "type": "checkbox",
+      "position": { "y": 289, "x": 96 },
+      "size": 2
+    },
+    "savingThrows.charisma.value": {
+      "type": "input",
+      "position": { "y": 286, "x": 105 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.acrobatics.checked": {
+      "type": "checkbox",
+      "position": { "y": 341, "x": 96 },
+      "size": 2
+    },
+    "skills.acrobatics.value": {
+      "type": "input",
+      "position": { "y": 338, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.athletics.checked": {
+      "type": "checkbox",
+      "position": { "y": 356, "x": 96 },
+      "size": 2
+    },
+    "skills.athletics.value": {
+      "type": "input",
+      "position": { "y": 353, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.arcana.checked": {
+      "type": "checkbox",
+      "position": { "y": 371, "x": 96 },
+      "size": 2
+    },
+    "skills.arcana.value": {
+      "type": "input",
+      "position": { "y": 368, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.deception.checked": {
+      "type": "checkbox",
+      "position": { "y": 386, "x": 96 },
+      "size": 2
+    },
+    "skills.deception.value": {
+      "type": "input",
+      "position": { "y": 383, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.history.checked": {
+      "type": "checkbox",
+      "position": { "y": 401, "x": 96 },
+      "size": 2
+    },
+    "skills.history.value": {
+      "type": "input",
+      "position": { "y": 398, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.performance.checked": {
+      "type": "checkbox",
+      "position": { "y": 416, "x": 96 },
+      "size": 2
+    },
+    "skills.performance.value": {
+      "type": "input",
+      "position": { "y": 413, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.intimidation.checked": {
+      "type": "checkbox",
+      "position": { "y": 431, "x": 96 },
+      "size": 2
+    },
+    "skills.intimidation.value": {
+      "type": "input",
+      "position": { "y": 428, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.investigation.checked": {
+      "type": "checkbox",
+      "position": { "y": 445, "x": 96 },
+      "size": 2
+    },
+    "skills.investigation.value": {
+      "type": "input",
+      "position": { "y": 442, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.sleightofhand.checked": {
+      "type": "checkbox",
+      "position": { "y": 460, "x": 96 },
+      "size": 2
+    },
+    "skills.sleightofhand.value": {
+      "type": "input",
+      "position": { "y": 457, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.medicine.checked": {
+      "type": "checkbox",
+      "position": { "y": 475, "x": 96 },
+      "size": 2
+    },
+    "skills.medicine.value": {
+      "type": "input",
+      "position": { "y": 472, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.nature.checked": {
+      "type": "checkbox",
+      "position": { "y": 490, "x": 96 },
+      "size": 2
+    },
+    "skills.nature.value": {
+      "type": "input",
+      "position": { "y": 487, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.perception.checked": {
+      "type": "checkbox",
+      "position": { "y": 504, "x": 96 },
+      "size": 2
+    },
+    "skills.perception.value": {
+      "type": "input",
+      "position": { "y": 501, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.insight.checked": {
+      "type": "checkbox",
+      "position": { "y": 519, "x": 96 },
+      "size": 2
+    },
+    "skills.insight.value": {
+      "type": "input",
+      "position": { "y": 516, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.persuasion.checked": {
+      "type": "checkbox",
+      "position": { "y": 534, "x": 96 },
+      "size": 2
+    },
+    "skills.persuasion.value": {
+      "type": "input",
+      "position": { "y": 531, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.religion.checked": {
+      "type": "checkbox",
+      "position": { "y": 549, "x": 96 },
+      "size": 2
+    },
+    "skills.religion.value": {
+      "type": "input",
+      "position": { "y": 546, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.stealth.checked": {
+      "type": "checkbox",
+      "position": { "y": 564, "x": 96 },
+      "size": 2
+    },
+    "skills.stealth.value": {
+      "type": "input",
+      "position": { "y": 561, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.survival.checked": {
+      "type": "checkbox",
+      "position": { "y": 578, "x": 96 },
+      "size": 2
+    },
+    "skills.survival.value": {
+      "type": "input",
+      "position": { "y": 575, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "skills.animalhandling.checked": {
+      "type": "checkbox",
+      "position": { "y": 593, "x": 96 },
+      "size": 2
+    },
+    "skills.animalhandling.value": {
+      "type": "input",
+      "position": { "y": 590, "x": 104 },
+      "fontSize": 8,
+      "size": 15,
+      "align": "center"
+    },
+    "coin.copper": {
+      "type": "input",
+      "position": { "y": 642, "x": 223 },
+      "fontSize": 12,
+      "size": 28,
+      "align": "center"
+    },
+    "coin.silver": {
+      "type": "input",
+      "position": { "y": 671, "x": 223 },
+      "fontSize": 12,
+      "size": 28,
+      "align": "center"
+    },
+    "coin.electrum": {
+      "type": "input",
+      "position": { "y": 699, "x": 223 },
+      "fontSize": 12,
+      "size": 28,
+      "align": "center"
+    },
+    "coin.gold": {
+      "type": "input",
+      "position": { "y": 729, "x": 223 },
+      "fontSize": 12,
+      "size": 28,
+      "align": "center"
+    },
+    "coin.platinum": {
+      "type": "input",
+      "position": { "y": 756, "x": 223 },
+      "fontSize": 12,
+      "size": 28,
+      "align": "center"
+    }
+  }
+}
